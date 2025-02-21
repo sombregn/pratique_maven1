@@ -1,0 +1,550 @@
+2025-02-21T01:23:00.336Z  INFO 18076 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 18076 (D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start)
+2025-02-21T01:23:00.361Z  INFO 18076 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-21T01:23:02.067Z  INFO 18076 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-21T01:23:02.147Z  INFO 18076 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2025-02-21T01:23:04.005Z  INFO 18076 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-21T01:23:04.026Z  INFO 18076 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-21T01:23:04.027Z  INFO 18076 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-21T01:23:04.148Z  INFO 18076 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-21T01:23:04.150Z  INFO 18076 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3597 ms
+2025-02-21T01:23:04.486Z DEBUG 18076 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-21T01:23:04.626Z  INFO 18076 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-21T01:23:05.033Z  INFO 18076 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-21T01:23:05.038Z  INFO 18076 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-21T01:23:05.173Z  INFO 18076 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-21T01:23:05.343Z  INFO 18076 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-21T01:23:05.445Z  INFO 18076 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-21T01:23:06.320Z  INFO 18076 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-21T01:23:06.443Z  WARN 18076 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-21T01:23:06.504Z  INFO 18076 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-21T01:23:09.456Z  INFO 18076 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-21T01:23:09.592Z  INFO 18076 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T01:23:10.588Z  WARN 18076 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-21T01:23:10.794Z DEBUG 18076 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-21T01:23:11.045Z DEBUG 18076 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-21T01:23:11.142Z DEBUG 18076 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-21T01:23:11.257Z  WARN 18076 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-21T01:23:11.321Z DEBUG 18076 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-21T01:23:11.727Z  INFO 18076 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-21T01:23:11.800Z  INFO 18076 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-21T01:23:12.261Z  INFO 18076 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-21T01:23:12.294Z  INFO 18076 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 13.263 seconds (process running for 14.081)
+2025-02-21T01:24:02.783Z  INFO 18076 --- [maven-lab] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-21T01:24:02.786Z  INFO 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-21T01:24:02.787Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-21T01:24:02.789Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-21T01:24:02.790Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-21T01:24:02.799Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4945cd1f
+2025-02-21T01:24:02.806Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4b55652a
+2025-02-21T01:24:02.811Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-21T01:24:02.812Z  INFO 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2025-02-21T01:24:02.858Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T01:24:02.878Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T01:24:02.947Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T01:24:02.955Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T01:24:02.974Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T01:24:33.398Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T01:24:33.401Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T01:24:33.406Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T01:24:33.407Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T01:24:33.409Z DEBUG 18076 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T01:34:24.826Z  INFO 18076 --- [maven-lab] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-21T01:34:26.079Z  INFO 18076 --- [maven-lab] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-21T01:34:26.166Z  INFO 18076 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T01:34:26.295Z  INFO 18076 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-21T01:34:26.322Z  INFO 18076 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-21T01:35:51.472Z  INFO 21348 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 21348 (D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start)
+2025-02-21T01:35:51.482Z  INFO 21348 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-21T01:35:53.149Z  INFO 21348 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-21T01:35:53.229Z  INFO 21348 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2025-02-21T01:35:55.172Z  INFO 21348 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-21T01:35:55.193Z  INFO 21348 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-21T01:35:55.194Z  INFO 21348 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-21T01:35:55.305Z  INFO 21348 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-21T01:35:55.306Z  INFO 21348 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3662 ms
+2025-02-21T01:35:55.602Z DEBUG 21348 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-21T01:35:55.766Z  INFO 21348 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-21T01:35:56.050Z  INFO 21348 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-21T01:35:56.054Z  INFO 21348 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-21T01:35:56.139Z  INFO 21348 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-21T01:35:56.236Z  INFO 21348 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-21T01:35:56.301Z  INFO 21348 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-21T01:35:56.810Z  INFO 21348 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-21T01:35:56.890Z  WARN 21348 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-21T01:35:56.939Z  INFO 21348 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-21T01:35:58.519Z  INFO 21348 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-21T01:35:58.610Z  INFO 21348 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T01:35:59.358Z  WARN 21348 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-21T01:35:59.567Z DEBUG 21348 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-21T01:35:59.785Z DEBUG 21348 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-21T01:35:59.847Z DEBUG 21348 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-21T01:35:59.932Z  WARN 21348 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-21T01:35:59.992Z DEBUG 21348 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-21T01:36:00.457Z  INFO 21348 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-21T01:36:00.544Z  INFO 21348 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-21T01:36:00.729Z  INFO 21348 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-21T01:36:00.772Z  INFO 21348 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 10.44 seconds (process running for 11.098)
+2025-02-21T01:36:18.013Z  INFO 21348 --- [maven-lab] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-21T01:36:18.025Z  INFO 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-21T01:36:18.046Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-21T01:36:18.056Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-21T01:36:18.058Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-21T01:36:18.062Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@23e0b938
+2025-02-21T01:36:18.066Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@641001c2
+2025-02-21T01:36:18.068Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-21T01:36:18.070Z  INFO 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2025-02-21T01:36:18.123Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T01:36:18.154Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T01:36:18.223Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T01:36:18.226Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T01:36:18.238Z DEBUG 21348 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T01:50:01.676Z  INFO 21348 --- [maven-lab] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-21T01:50:02.753Z  INFO 21348 --- [maven-lab] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-21T01:50:02.816Z  INFO 21348 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T01:50:02.923Z  INFO 21348 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-21T01:50:02.945Z  INFO 21348 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-21T01:50:17.620Z  INFO 17368 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 17368 (D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start)
+2025-02-21T01:50:17.626Z  INFO 17368 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-21T01:50:19.643Z  INFO 17368 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-21T01:50:19.730Z  INFO 17368 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2025-02-21T01:50:21.871Z  INFO 17368 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-21T01:50:21.894Z  INFO 17368 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-21T01:50:21.895Z  INFO 17368 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-21T01:50:22.006Z  INFO 17368 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-21T01:50:22.008Z  INFO 17368 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4225 ms
+2025-02-21T01:50:22.369Z DEBUG 17368 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-21T01:50:22.566Z  INFO 17368 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-21T01:50:23.058Z  INFO 17368 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-21T01:50:23.063Z  INFO 17368 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-21T01:50:23.148Z  INFO 17368 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-21T01:50:23.286Z  INFO 17368 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-21T01:50:23.366Z  INFO 17368 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-21T01:50:24.254Z  INFO 17368 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-21T01:50:24.374Z  WARN 17368 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-21T01:50:24.414Z  INFO 17368 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-21T01:50:26.602Z  INFO 17368 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-21T01:50:26.743Z  INFO 17368 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T01:50:27.670Z  WARN 17368 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-21T01:50:27.931Z DEBUG 17368 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-21T01:50:28.191Z DEBUG 17368 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-21T01:50:28.273Z DEBUG 17368 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-21T01:50:28.381Z  WARN 17368 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-21T01:50:28.467Z DEBUG 17368 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-21T01:50:28.947Z  INFO 17368 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-21T01:50:29.024Z  INFO 17368 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-21T01:50:29.242Z  INFO 17368 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-21T01:50:29.278Z  INFO 17368 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 13.025 seconds (process running for 13.917)
+2025-02-21T01:50:51.183Z  INFO 17368 --- [maven-lab] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-21T01:50:51.183Z  INFO 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-21T01:50:51.184Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-21T01:50:51.185Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-21T01:50:51.185Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-21T01:50:51.188Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@44aaa987
+2025-02-21T01:50:51.189Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@48c584c
+2025-02-21T01:50:51.190Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-21T01:50:51.191Z  INFO 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-02-21T01:50:51.238Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T01:50:51.254Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T01:50:51.304Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T01:50:51.307Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T01:50:51.321Z DEBUG 17368 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T01:51:41.864Z  INFO 17368 --- [maven-lab] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-21T01:51:42.720Z  INFO 17368 --- [maven-lab] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-21T01:51:42.727Z  INFO 17368 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T01:51:42.739Z  INFO 17368 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-21T01:51:42.742Z  INFO 17368 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-21T01:52:16.343Z  INFO 18900 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 18900 (D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start)
+2025-02-21T01:52:16.347Z  INFO 18900 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-21T01:52:18.035Z  INFO 18900 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-21T01:52:18.123Z  INFO 18900 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2025-02-21T01:52:19.916Z  INFO 18900 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-21T01:52:19.947Z  INFO 18900 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-21T01:52:19.950Z  INFO 18900 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-21T01:52:20.102Z  INFO 18900 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-21T01:52:20.103Z  INFO 18900 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3641 ms
+2025-02-21T01:52:20.424Z DEBUG 18900 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-21T01:52:20.628Z  INFO 18900 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-21T01:52:20.962Z  INFO 18900 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-21T01:52:20.967Z  INFO 18900 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-21T01:52:21.083Z  INFO 18900 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-21T01:52:21.229Z  INFO 18900 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-21T01:52:21.333Z  INFO 18900 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-21T01:52:22.038Z  INFO 18900 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-21T01:52:22.145Z  WARN 18900 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-21T01:52:22.190Z  INFO 18900 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-21T01:52:23.650Z  INFO 18900 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-21T01:52:23.771Z  INFO 18900 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T01:52:24.441Z  WARN 18900 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-21T01:52:24.656Z DEBUG 18900 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-21T01:52:24.852Z DEBUG 18900 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-21T01:52:24.930Z DEBUG 18900 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-21T01:52:25.020Z  WARN 18900 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-21T01:52:25.088Z DEBUG 18900 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-21T01:52:25.487Z  INFO 18900 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-21T01:52:25.545Z  INFO 18900 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-21T01:52:25.679Z  INFO 18900 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-21T01:52:25.703Z  INFO 18900 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 10.335 seconds (process running for 11.085)
+2025-02-21T01:52:39.386Z  INFO 18900 --- [maven-lab] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-21T01:52:39.387Z  INFO 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-21T01:52:39.388Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-21T01:52:39.390Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-21T01:52:39.391Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-21T01:52:39.392Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7b06dce0
+2025-02-21T01:52:39.394Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@f111e97
+2025-02-21T01:52:39.394Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-21T01:52:39.395Z  INFO 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2025-02-21T01:52:39.413Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T01:52:39.423Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T01:52:39.453Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T01:52:39.455Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T01:52:39.461Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T01:53:45.503Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T01:53:45.505Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T01:53:45.509Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T01:53:45.510Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T01:53:45.512Z DEBUG 18900 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T02:03:29.630Z  INFO 18900 --- [maven-lab] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-21T02:03:30.566Z  INFO 18900 --- [maven-lab] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-21T02:03:30.641Z  INFO 18900 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T02:03:30.754Z  INFO 18900 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-21T02:03:30.777Z  INFO 18900 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-21T02:11:26.044Z  INFO 8492 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 8492 (D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\tp-maven\maven-lab1\start)
+2025-02-21T02:11:26.050Z  INFO 8492 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-21T02:11:27.359Z  INFO 8492 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-21T02:11:27.432Z  INFO 8492 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2025-02-21T02:11:29.707Z  INFO 8492 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-21T02:11:29.746Z  INFO 8492 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-21T02:11:29.748Z  INFO 8492 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-21T02:11:29.931Z  INFO 8492 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-21T02:11:29.934Z  INFO 8492 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3760 ms
+2025-02-21T02:11:30.433Z DEBUG 8492 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-21T02:11:30.636Z  INFO 8492 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-21T02:11:30.974Z  INFO 8492 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-21T02:11:30.978Z  INFO 8492 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-21T02:11:31.094Z  INFO 8492 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-21T02:11:31.204Z  INFO 8492 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-21T02:11:31.266Z  INFO 8492 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-21T02:11:31.759Z  INFO 8492 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-21T02:11:31.870Z  WARN 8492 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-21T02:11:31.919Z  INFO 8492 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-21T02:11:33.927Z  INFO 8492 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-21T02:11:34.073Z  INFO 8492 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T02:11:35.102Z  WARN 8492 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-21T02:11:35.264Z DEBUG 8492 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-21T02:11:35.492Z DEBUG 8492 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-21T02:11:35.560Z DEBUG 8492 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-21T02:11:35.640Z  WARN 8492 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-21T02:11:35.697Z DEBUG 8492 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-21T02:11:36.194Z  INFO 8492 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-21T02:11:36.264Z  INFO 8492 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-21T02:11:36.432Z  INFO 8492 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-21T02:11:36.459Z  INFO 8492 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 11.269 seconds (process running for 12.102)
+2025-02-21T02:11:53.989Z  INFO 8492 --- [maven-lab] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-21T02:11:53.990Z  INFO 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-21T02:11:53.992Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-21T02:11:53.993Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-21T02:11:53.994Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-21T02:11:53.997Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@9d4d221
+2025-02-21T02:11:53.998Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1eff74f2
+2025-02-21T02:11:53.999Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-21T02:11:53.999Z  INFO 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2025-02-21T02:11:54.037Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T02:11:54.053Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T02:11:54.111Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:11:54.113Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T02:11:54.121Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T02:12:11.938Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/roles", parameters={}
+2025-02-21T02:12:11.940Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#getAppRoles()
+2025-02-21T02:12:12.172Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T02:12:12.173Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2025-02-21T02:12:12.188Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T02:12:42.357Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2025-02-21T02:12:42.369Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:12:42.380Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:12:42.385Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:12:42.393Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:12:42.394Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource swagger-ui/index.html."]
+2025-02-21T02:12:42.397Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui/index.html.]
+2025-02-21T02:12:42.398Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:12:43.414Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-02-21T02:12:43.420Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:12:43.428Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:12:43.437Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:12:43.439Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'image/avif', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:12:43.440Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource favicon.ico."]
+2025-02-21T02:12:43.448Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-21T02:12:43.450Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:12:51.361Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2025-02-21T02:12:51.363Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:12:51.370Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:12:51.371Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:12:51.372Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:12:51.373Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource swagger-ui/index.html."]
+2025-02-21T02:12:51.375Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui/index.html.]
+2025-02-21T02:12:51.376Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:12:51.672Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-02-21T02:12:51.677Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:12:51.680Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:12:51.681Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:12:51.682Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'image/avif', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:12:51.682Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource favicon.ico."]
+2025-02-21T02:12:51.684Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-21T02:12:51.685Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:13:30.339Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/http://localhost:8080/v3/api-docs", parameters={}
+2025-02-21T02:13:30.341Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:13:30.372Z  WARN 8492 --- [maven-lab] [http-nio-8080-exec-9] o.s.w.s.resource.ResourceHandlerUtils    : "Path represents URL or has "url:" prefix: [http:/localhost:8080/v3/api-docs]"
+2025-02-21T02:13:30.373Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:13:30.373Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:13:30.375Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:13:30.375Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource http:/localhost:8080/v3/api-docs."]
+2025-02-21T02:13:30.376Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource http:/localhost:8080/v3/api-docs.]
+2025-02-21T02:13:30.378Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:13:30.722Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-02-21T02:13:30.725Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:13:30.728Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:13:30.731Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:13:30.733Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'image/avif', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:13:30.734Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource favicon.ico."]
+2025-02-21T02:13:30.736Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-21T02:13:30.737Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:13:39.148Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-02-21T02:13:39.150Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:13:39.155Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:13:39.157Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:13:39.158Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:13:39.160Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource v3/api-docs."]
+2025-02-21T02:13:39.162Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource v3/api-docs.]
+2025-02-21T02:13:39.165Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:13:39.489Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-02-21T02:13:39.491Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:13:39.493Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:13:39.494Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:13:39.494Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'image/avif', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:13:39.495Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource favicon.ico."]
+2025-02-21T02:13:39.497Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-21T02:13:39.499Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:14:08.892Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-02-21T02:14:08.900Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:14:08.905Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:14:08.907Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:14:08.916Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:14:08.938Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource v3/api-docs."]
+2025-02-21T02:14:08.940Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource v3/api-docs.]
+2025-02-21T02:14:08.942Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:14:08.947Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-02-21T02:14:08.950Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:14:08.953Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:14:08.954Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:14:08.956Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:14:08.956Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource v3/api-docs."]
+2025-02-21T02:14:08.960Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource v3/api-docs.]
+2025-02-21T02:14:08.962Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:14:10.544Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-02-21T02:14:10.547Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:14:10.553Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:14:10.555Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:14:10.556Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'image/avif', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:14:10.557Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource favicon.ico."]
+2025-02-21T02:14:10.560Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-21T02:14:10.562Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:14:12.816Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-02-21T02:14:12.817Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-21T02:14:12.818Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-02-21T02:14:12.819Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-02-21T02:14:12.820Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'image/avif', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T02:14:12.820Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Une erreur interne est survenue : No static resource favicon.ico."]
+2025-02-21T02:14:12.821Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-02-21T02:14:12.822Z DEBUG 8492 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-02-21T02:15:12.055Z  INFO 8492 --- [maven-lab] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-21T02:15:12.803Z  INFO 8492 --- [maven-lab] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-21T02:15:12.835Z  INFO 8492 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T02:15:12.909Z  INFO 8492 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-21T02:15:12.919Z  INFO 8492 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-21T13:36:45.588Z  INFO 17588 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 17588 (D:\MASTER_II_GL\JEE\devoir\commandes\maven-lab1\start\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\devoir\commandes\maven-lab1\start)
+2025-02-21T13:36:45.593Z  INFO 17588 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-21T13:36:46.480Z  INFO 17588 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-21T13:36:46.537Z  INFO 17588 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2025-02-21T13:36:47.641Z  INFO 17588 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-21T13:36:47.659Z  INFO 17588 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-21T13:36:47.660Z  INFO 17588 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-21T13:36:47.751Z  INFO 17588 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-21T13:36:47.752Z  INFO 17588 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2061 ms
+2025-02-21T13:36:47.968Z DEBUG 17588 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-21T13:36:48.113Z  INFO 17588 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-21T13:36:48.347Z  INFO 17588 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-21T13:36:48.350Z  INFO 17588 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-21T13:36:48.423Z  INFO 17588 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-21T13:36:48.496Z  INFO 17588 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-21T13:36:48.546Z  INFO 17588 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-21T13:36:48.881Z  INFO 17588 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-21T13:36:48.939Z  WARN 17588 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-21T13:36:48.963Z  INFO 17588 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-21T13:36:50.046Z  INFO 17588 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-21T13:36:50.138Z  INFO 17588 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-21T13:36:50.951Z  WARN 17588 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-21T13:36:51.156Z DEBUG 17588 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-21T13:36:51.349Z DEBUG 17588 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-21T13:36:51.420Z DEBUG 17588 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-21T13:36:51.510Z  WARN 17588 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-21T13:36:51.577Z DEBUG 17588 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-21T13:36:51.969Z  INFO 17588 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-21T13:36:52.053Z  INFO 17588 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-21T13:36:52.192Z  INFO 17588 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-21T13:36:52.226Z  INFO 17588 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 7.159 seconds (process running for 7.576)
+2025-02-21T13:39:14.413Z  INFO 17588 --- [maven-lab] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-21T13:39:14.413Z  INFO 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-21T13:39:14.414Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-21T13:39:14.415Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-21T13:39:14.415Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-21T13:39:14.417Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3129792a
+2025-02-21T13:39:14.418Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@75c36570
+2025-02-21T13:39:14.419Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-21T13:39:14.419Z  INFO 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-02-21T13:39:14.470Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/somme", parameters={}
+2025-02-21T13:39:14.488Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#sommeController()
+2025-02-21T13:39:14.533Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:39:14.536Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [11]
+2025-02-21T13:39:14.566Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T13:39:44.021Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T13:39:44.023Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T13:39:44.025Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T13:39:44.028Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T13:39:44.031Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T13:40:51.090Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-21T13:40:51.092Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-21T13:40:51.093Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T13:40:51.094Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-21T13:40:51.095Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T13:41:20.058Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-21T13:41:20.060Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-21T13:41:20.240Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@21a09fc]
+2025-02-21T13:41:20.606Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:41:20.607Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.isi.maven.services.dto.AppRoles@44df2519]
+2025-02-21T13:41:20.611Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-21T13:41:42.358Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-21T13:41:42.360Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-21T13:41:42.362Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@469a7483]
+2025-02-21T13:41:42.373Z  WARN 17588 --- [maven-lab] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2025-02-21T13:41:42.374Z ERROR 17588 --- [maven-lab] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Violation d'index unique ou clé primaire: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"
+Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"; SQL statement:
+insert into app_roles_entity (nom,id) values (?,default) [23505-232]
+2025-02-21T13:41:42.393Z ERROR 17588 --- [maven-lab] [http-nio-8080-exec-7] c.i.maven.services.config.LoggingAspect  : Exception in com.isi.maven.web.AppRolesController.createAppRoles() with message = Erreur lors de la création du rôle : could not execute statement [Violation d'index unique ou clé primaire: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"
+Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"; SQL statement:
+insert into app_roles_entity (nom,id) values (?,default) [23505-232]] [insert into app_roles_entity (nom,id) values (?,default)]; SQL [insert into app_roles_entity (nom,id) values (?,default)]; constraint [PUBLIC.CONSTRAINT_INDEX_2]
+2025-02-21T13:41:42.397Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.APIExceptionHandler#handleRequestException(RequestException)
+2025-02-21T13:41:42.420Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:41:42.421Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.maven.services.exception.APIException@1477e6cf]
+2025-02-21T13:41:42.423Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.isi.maven.services.exception.RequestException: Erreur lors de la création du rôle : could not execute statement [Violation d'index unique ou clé primaire: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"<EOL>Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"; SQL statement:<EOL>insert into app_roles_entity (nom,id) values (?,default) [23505-232]] [insert into app_roles_entity (nom,id) values (?,default)]; SQL [insert into app_roles_entity (nom,id) values (?,default)]; constraint [PUBLIC.CONSTRAINT_INDEX_2]]
+2025-02-21T13:41:42.425Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-21T13:42:13.457Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-21T13:42:13.458Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-21T13:42:13.461Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@2924c39c]
+2025-02-21T13:42:13.469Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:42:13.470Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.isi.maven.services.dto.AppRoles@35c03b41]
+2025-02-21T13:42:13.473Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-21T13:42:19.969Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/roles", parameters={}
+2025-02-21T13:42:19.970Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#getAppRoles()
+2025-02-21T13:42:20.223Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:42:20.225Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.isi.maven.services.dto.AppRoles@1d443ae8, com.isi.maven.services.dto.AppRoles@49c61bd3]]
+2025-02-21T13:42:20.230Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T13:42:33.852Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-21T13:42:33.853Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-21T13:42:33.855Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@1a227c54]
+2025-02-21T13:42:33.859Z  WARN 17588 --- [maven-lab] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2025-02-21T13:42:33.859Z ERROR 17588 --- [maven-lab] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Violation d'index unique ou clé primaire: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"
+Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"; SQL statement:
+insert into app_roles_entity (nom,id) values (?,default) [23505-232]
+2025-02-21T13:42:33.862Z ERROR 17588 --- [maven-lab] [http-nio-8080-exec-1] c.i.maven.services.config.LoggingAspect  : Exception in com.isi.maven.web.AppRolesController.createAppRoles() with message = Erreur lors de la création du rôle : could not execute statement [Violation d'index unique ou clé primaire: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"
+Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"; SQL statement:
+insert into app_roles_entity (nom,id) values (?,default) [23505-232]] [insert into app_roles_entity (nom,id) values (?,default)]; SQL [insert into app_roles_entity (nom,id) values (?,default)]; constraint [PUBLIC.CONSTRAINT_INDEX_2]
+2025-02-21T13:42:33.866Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.APIExceptionHandler#handleRequestException(RequestException)
+2025-02-21T13:42:33.867Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:42:33.867Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.maven.services.exception.APIException@578c445c]
+2025-02-21T13:42:33.869Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.isi.maven.services.exception.RequestException: Erreur lors de la création du rôle : could not execute statement [Violation d'index unique ou clé primaire: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"<EOL>Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.APP_ROLES_ENTITY(NOM NULLS FIRST) VALUES ( /* 1 */ 'Infos224' )"; SQL statement:<EOL>insert into app_roles_entity (nom,id) values (?,default) [23505-232]] [insert into app_roles_entity (nom,id) values (?,default)]; SQL [insert into app_roles_entity (nom,id) values (?,default)]; constraint [PUBLIC.CONSTRAINT_INDEX_2]]
+2025-02-21T13:42:33.873Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-21T13:42:38.663Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-21T13:42:38.665Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-21T13:42:38.668Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@7fa976bb]
+2025-02-21T13:42:38.675Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:42:38.676Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.isi.maven.services.dto.AppRoles@1c3b2e81]
+2025-02-21T13:42:38.679Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-21T13:42:43.625Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/roles", parameters={}
+2025-02-21T13:42:43.627Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#getAppRoles()
+2025-02-21T13:42:43.637Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:42:43.639Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.isi.maven.services.dto.AppRoles@1b0b6c81, com.isi.maven.services.dto.AppRoles@48cf52c7, com.isi (truncated)...]
+2025-02-21T13:42:43.642Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T13:43:14.171Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : PUT "/roles/1", parameters={}
+2025-02-21T13:43:14.173Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#updateAppRoles(int, AppRoles)
+2025-02-21T13:43:14.182Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@71c6bcbc]
+2025-02-21T13:43:14.264Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:43:14.265Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.maven.services.dto.AppRoles@44d26c97]
+2025-02-21T13:43:14.267Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-21T13:43:47.621Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/roles/122", parameters={}
+2025-02-21T13:43:47.624Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#updateAppRoles(int, AppRoles)
+2025-02-21T13:43:47.626Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@3bc921c8]
+2025-02-21T13:43:47.643Z ERROR 17588 --- [maven-lab] [http-nio-8080-exec-8] c.i.maven.services.config.LoggingAspect  : Exception in com.isi.maven.web.AppRolesController.updateAppRoles() with message = Erreur lors de la mise à jour du rôle : Requested Roles with id = 122 does not exist
+2025-02-21T13:43:47.644Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.APIExceptionHandler#handleRequestException(RequestException)
+2025-02-21T13:43:47.645Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:43:47.646Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.maven.services.exception.APIException@70a88e54]
+2025-02-21T13:43:47.648Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.isi.maven.services.exception.RequestException: Erreur lors de la mise à jour du rôle : Requested Roles with id = 122 does not exist]
+2025-02-21T13:43:47.649Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-21T13:44:23.236Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : DELETE "/roles/1", parameters={}
+2025-02-21T13:44:23.238Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#deleteAppRoles(int)
+2025-02-21T13:44:24.066Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:44:24.068Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2025-02-21T13:44:24.070Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 204 NO_CONTENT
+2025-02-21T13:44:27.466Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : DELETE "/roles/1", parameters={}
+2025-02-21T13:44:27.468Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#deleteAppRoles(int)
+2025-02-21T13:44:27.478Z ERROR 17588 --- [maven-lab] [http-nio-8080-exec-9] c.i.maven.services.config.LoggingAspect  : Exception in com.isi.maven.web.AppRolesController.deleteAppRoles() with message = Requested Roles with id = 1 does not exist
+2025-02-21T13:44:27.486Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.maven.services.exception.GlobalExceptionHandler#handleEntityNotFoundException(EntityNotFoundException)
+2025-02-21T13:44:27.489Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-21T13:44:27.489Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Requested Roles with id = 1 does not exist"]
+2025-02-21T13:44:27.490Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jakarta.persistence.EntityNotFoundException: Requested Roles with id = 1 does not exist]
+2025-02-21T13:44:27.491Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-02-21T13:44:40.633Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DELETE "/roles/3", parameters={}
+2025-02-21T13:44:40.635Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#deleteAppRoles(int)
+2025-02-21T13:44:40.650Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-21T13:44:40.651Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2025-02-21T13:44:40.652Z DEBUG 17588 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 204 NO_CONTENT
