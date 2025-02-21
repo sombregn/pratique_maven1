@@ -54,7 +54,7 @@ Rdv dans le module de démarrage
 - **mvn spring-boot:run**
 - **Vous pouvez également lancer l'application directement depuis votre IDE en appuyant sur le bouton Run.**
 
-### 🌐 URLs d'accès sur postman
+### 🌐 URLs d'accès sur le web et postman
 Une fois l'application lancée, vous pouvez accéder aux services via les URLs suivantes :
 - **Application: http://localhost:8080/..**
 
