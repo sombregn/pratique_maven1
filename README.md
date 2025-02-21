@@ -59,7 +59,7 @@ Une fois l'application lancée, vous pouvez accéder aux services via les URLs s
 - **Application: http://localhost:8080/..**
 
 ### 📸 Captures d'écran
-Pour visualiser des captures d'écran de l'application et de Keycloak, consultez le dossier captures dans le projet.
+Pour visualiser des captures d'écran de l'application et résultats, consultez le dossier captures dans le projet.
 
 ### 📝 Remarque
 Assurez-vous que maven et Java est bien installé et configurée.
